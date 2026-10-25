@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="214" viewBox="0 0 410 214" fill="none" role="img" aria-label="CampusEngage">
+<title>CampusEngage</title>
+<defs>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#36bcf7"/><stop offset="1" stop-color="#1e3a8a"/></linearGradient>
+<radialGradient id="r2"><stop offset="0" stop-color="#36bcf7" stop-opacity="0.38"/><stop offset="1" stop-color="#36bcf7" stop-opacity="0"/></radialGradient>
+<clipPath id="c2"><rect x="1" y="1" width="408" height="212" rx="14"/></clipPath>
+</defs>
+<style>
+    text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+    .title{font-size:17px;font-weight:700;fill:#e6edf3}
+    .desc{font-size:12.5px;fill:#9aa7b4}
+    .tag{font-size:10px;font-weight:700;letter-spacing:1.2px;fill:#36bcf7}
+    .num{font-size:12px;font-weight:700;fill:#2c3e50}
+    .chip{font-size:11px;fill:#8fdcff}
+    .in{animation:rise .7s cubic-bezier(.2,.8,.2,1) both}
+    .trace{stroke-dasharray:16 84;animation:trace 5s linear infinite}
+    .glow{transform-box:fill-box;transform-origin:center;animation:pulse 4s ease-in-out infinite}
+    .bar{transform-box:fill-box;transform-origin:left center;animation:grow .8s .35s cubic-bezier(.2,.8,.2,1) both}
+    @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+    @keyframes trace{to{stroke-dashoffset:-100}}
+    @keyframes pulse{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:1;transform:scale(1.18)}}
+    @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+</style>
+<rect x="0.5" y="0.5" width="409" height="213" rx="14" fill="#0d1117" stroke="#1d2a38"/>
+<g clip-path="url(#c2)"><circle class="glow" cx="368" cy="24" r="84" fill="url(#r2)"/></g>
+<rect class="trace" x="0.5" y="0.5" width="409" height="213" rx="14" fill="none" pathLength="100" stroke="url(#g2)" stroke-width="2" style="animation-delay:-2.6s"/>
+<g class="in" style="animation-delay:.05s"><rect x="20" y="18" width="98" height="22" rx="11" fill="#36bcf7" fill-opacity="0.12" stroke="#36bcf7" stroke-opacity="0.4"/><text class="tag" x="69" y="33" text-anchor="middle">FULL-STACK</text></g>
+<text class="num" x="390" y="33" text-anchor="end">02</text>
+<text class="title in" x="20" y="68" style="animation-delay:.12s">CampusEngage</text>
+<rect class="bar" x="20" y="78" width="36" height="3" rx="1.5" fill="#36bcf7"/>
+<text class="desc in" x="20" y="102" style="animation-delay:0.25s">Full-stack campus engagement and networking platform</text>
+<text class="desc in" x="20" y="120" style="animation-delay:0.33s">with JWT auth and role-based access.</text>
+<g class="in" style="animation-delay:0.50s"><rect x="20" y="158" width="52" height="22" rx="11" fill="#36bcf7" fill-opacity="0.08" stroke="#36bcf7" stroke-opacity="0.3"/><text class="chip" x="46" y="173" text-anchor="middle">React</text></g>
+<g class="in" style="animation-delay:0.56s"><rect x="80" y="158" width="64" height="22" rx="11" fill="#36bcf7" fill-opacity="0.08" stroke="#36bcf7" stroke-opacity="0.3"/><text class="chip" x="112" y="173" text-anchor="middle">Node.js</text></g>
+<g class="in" style="animation-delay:0.62s"><rect x="152" y="158" width="83" height="22" rx="11" fill="#36bcf7" fill-opacity="0.08" stroke="#36bcf7" stroke-opacity="0.3"/><text class="chip" x="193" y="173" text-anchor="middle">Express.js</text></g>
+<g class="in" style="animation-delay:0.68s"><rect x="243" y="158" width="102" height="22" rx="11" fill="#36bcf7" fill-opacity="0.08" stroke="#36bcf7" stroke-opacity="0.3"/><text class="chip" x="294" y="173" text-anchor="middle">MongoDB Atlas</text></g>
+<g class="in" style="animation-delay:0.74s"><rect x="20" y="184" width="58" height="22" rx="11" fill="#36bcf7" fill-opacity="0.08" stroke="#36bcf7" stroke-opacity="0.3"/><text class="chip" x="49" y="199" text-anchor="middle">Render</text></g>
+<g class="in" style="animation-delay:0.80s"><rect x="86" y="184" width="64" height="22" rx="11" fill="#36bcf7" fill-opacity="0.08" stroke="#36bcf7" stroke-opacity="0.3"/><text class="chip" x="118" y="199" text-anchor="middle">Netlify</text></g>
+</svg>

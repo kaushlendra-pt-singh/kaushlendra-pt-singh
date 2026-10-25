@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="142" height="142" viewBox="0 0 142 142" fill="none" role="img" aria-label="Codeforces">
+<title>Codeforces</title>
+<defs>
+<radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#1F8ACB" stop-opacity="0.22"/><stop offset="1" stop-color="#1F8ACB" stop-opacity="0"/></radialGradient>
+<clipPath id="c"><rect width="130" height="130" rx="14"/></clipPath>
+</defs>
+<g transform="translate(6 6)">
+<rect x="0.5" y="0.5" width="129" height="129" rx="14" fill="#0d1117" stroke="#1f2d3d"/>
+<g clip-path="url(#c)">
+<circle cx="65.0" cy="52.0" r="52.0" fill="url(#g)"/>
+<rect x="0" y="104.0" width="130" height="26.0" fill="#36bcf7" fill-opacity="0.09"/>
+<rect x="0" y="104.0" width="130" height="1" fill="#36bcf7" fill-opacity="0.28"/>
+</g>
+<path transform="translate(37.96 24.96) scale(2.253)" fill="#1F8ACB" d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.673 21 0 20.328 0 19.5V9c0-.828.673-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.827 0-1.5-.672-1.5-1.5v-15c0-.828.673-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z"/>
+<text x="65.0" y="121.50" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#c9d1d9">Codeforces</text>
+</g>
+</svg>

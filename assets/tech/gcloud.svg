@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 112 112" fill="none" role="img" aria-label="Cloud Vision">
+<title>Cloud Vision</title>
+<defs>
+<radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#4285F4" stop-opacity="0.22"/><stop offset="1" stop-color="#4285F4" stop-opacity="0"/></radialGradient>
+<clipPath id="c"><rect width="100" height="100" rx="14"/></clipPath>
+</defs>
+<g transform="translate(6 6)">
+<rect x="0.5" y="0.5" width="99" height="99" rx="14" fill="#0d1117" stroke="#1f2d3d"/>
+<g clip-path="url(#c)">
+<circle cx="50.0" cy="40.0" r="40.0" fill="url(#g)"/>
+<rect x="0" y="80.0" width="100" height="20.0" fill="#36bcf7" fill-opacity="0.09"/>
+<rect x="0" y="80.0" width="100" height="1" fill="#36bcf7" fill-opacity="0.28"/>
+</g>
+<path transform="translate(29.20 19.20) scale(1.733)" fill="#4285F4" d="M12.19 2.38a9.344 9.344 0 0 0-9.234 6.893c.053-.02-.055.013 0 0-3.875 2.551-3.922 8.11-.247 10.941l.006-.007-.007.03a6.717 6.717 0 0 0 4.077 1.356h5.173l.03.03h5.192c6.687.053 9.376-8.605 3.835-12.35a9.365 9.365 0 0 0-2.821-4.552l-.043.043.006-.05A9.344 9.344 0 0 0 12.19 2.38zm-.358 4.146c1.244-.04 2.518.368 3.486 1.15a5.186 5.186 0 0 1 1.862 4.078v.518c3.53-.07 3.53 5.262 0 5.193h-5.193l-.008.009v-.04H6.785a2.59 2.59 0 0 1-1.067-.23h.001a2.597 2.597 0 1 1 3.437-3.437l3.013-3.012A6.747 6.747 0 0 0 8.11 8.24c.018-.01.04-.026.054-.023a5.186 5.186 0 0 1 3.67-1.69z"/>
+<text x="50.0" y="93.78" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="10.5" font-weight="600" fill="#c9d1d9">Cloud Vision</text>
+</g>
+</svg>
